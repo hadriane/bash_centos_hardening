@@ -1,0 +1,1 @@
+# bash_centos_hardening
