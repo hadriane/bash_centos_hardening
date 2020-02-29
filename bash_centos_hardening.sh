@@ -3,15 +3,15 @@
 #Get date and time
 CWD=$(pwd)
 DT=$(date '+%d-%m-%Y_%H-%M-%S')
-LOGFILE=$CWD/postdeploy-$DT.log
+LOGFILE=$CWD/bash_centos_hardening-$DT.log
 touch $LOGFILE
 
 #This is the ESM Server hostname and IP Address
 ESMSERVER='server54.staging.local'
 ESMIPADD='1.1.1.1'
 #This is the Localhost Server hostname and IP Address
-HOSTNAME='IEPE1LTGCONP01'
-HOSTNAMEIPADD='1.1.1.1'
+HOSTNAME='CONNSERVER01'
+HOSTNAMEIPADD='2.2.2.2'
 #This is the Jumphost Server hostname and IP Address
 JUMPHOSTNAME='jump-server1 jump-server1.production.local'
 JUMPIPADD='172.16.0.18'
